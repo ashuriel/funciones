@@ -1,0 +1,12 @@
+#Factorial
+
+def factorial(numero):
+    f=1
+    for i in range(2,numero+1):
+        f*=i
+    return f
+
+n=int(input('Ingresa un numero:'))
+resultado=factorial(n)
+
+print(f'El factorial de {n} es {resultado}.')
