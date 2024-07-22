@@ -1,0 +1,11 @@
+#Conversión de Grados Celsius a Fahrenheit
+
+def temperatura(celsius):
+    fahrenheit=(celsius*9/5)+32
+    
+    return fahrenheit
+
+c=int(input('Ingresa el valor en celcius:'))
+
+t=temperatura(c)
+print(f'{c} grados celsius es equivalebte al {t} grados fahrenherit.')
