@@ -1,0 +1,16 @@
+#Área de un Rectángulo
+
+def area(b,h):
+    resultado=b*h
+    
+    return resultado
+
+x=int(input('Ingresa la base de un rectangulo: '))
+y=int(input('Ingresa la altura de un rectangulo:'))
+
+if x!=y:
+    arearesultante=area(x,y)
+    print(f'La area de este rectangulo es: {arearesultante}.')
+elif x==y:
+    print('La base y altura no puede ser mismo en un rectangulo.')
+
