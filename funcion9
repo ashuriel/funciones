@@ -1,0 +1,15 @@
+#Contar vocales
+
+def contar(palabra):
+    
+    vocales='aeiouAEIOU'
+    count=0
+    for i in palabra:
+        if i in vocales:
+            count+=1
+    return count
+
+
+p=input('Ingresa una palabra:')
+cantidad=contar(p)
+print(f"La palabra '{p}' tiene {cantidad} vocales.")
