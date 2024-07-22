@@ -1,0 +1,16 @@
+#Palindromo
+
+def espalindromo(mensaje):
+    if mensaje==mensaje[::-1]:
+        return True
+    else:
+        return False
+
+texto=input('Ingresa un mensaje o palabra:')
+
+espalindromo(texto)
+
+if espalindromo(texto):
+    print(f"'{texto}' es palindromo")
+else:
+    print(f"'{texto}' no es palindromo")
