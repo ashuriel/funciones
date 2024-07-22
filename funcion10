@@ -1,0 +1,17 @@
+#Numeros primos
+
+def primo(numero):
+    for n in range(2,numero):
+        if numero%n==0:
+            return False
+        
+    return True
+
+
+num=int(input('Ingresa un numero:'))
+
+if primo(num):
+    print(f'El numero {num} es un numero primo.')
+else:
+    print(f'El numero {num} no es un numero primo.')
+    
