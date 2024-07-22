@@ -1,0 +1,10 @@
+#saludos
+
+def saludos(nombre):
+    print(f'Buenos dias {nombre}, como estas?')
+
+nombre=input('Ingresa el nombre:')
+
+saludos(nombre)   
+
+
