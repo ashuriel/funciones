@@ -1,0 +1,12 @@
+#Maximo de tres numeros
+def maximo(x,y,z):
+    
+    return max(x,y,z)
+
+n1=int(input('Ingresa el primer numero:'))
+n2=int(input('Ingresa el segundo numero:'))
+n3=int(input('Ingresa el tercer numero:'))
+
+numeromaximo=maximo(n1,n2,n3)
+
+print(f'El numero maximo entre los numero ingresado es {numeromaximo}.')
